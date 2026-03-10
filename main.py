@@ -40,7 +40,7 @@ def main():
         name = config.get('name', 'Unnamed Database')
         url = config.get('supabase_url')
         key = config.get('supabase_key')
-        table_name = config.get('table_name', 'KeepAlive')
+        table_name = config.get('table_name', 'github_table')
 
         # If using environment variables for keys
         key_env_var = config.get('supabase_key_env')
